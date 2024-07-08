@@ -11,12 +11,18 @@ body {
   color: #fafaf9;
   background-color: #292524;
   font-family: "sono", sans-serif;
-  padding: 40px;
+  padding: 48px 64px;
 }
 
 /***************/
 /* MAIN LAYOUT */
 /***************/
+.container {
+  max-width: 1500px;
+  background-color: orangered;
+  margin: 0 auto;
+}
+
 .header {
   margin-bottom: 40px;
   display: flex;
@@ -44,6 +50,11 @@ body {
   display: flex;
   align-items: center;
   gap: 16px;
+}
+
+.logo img {
+  height: 68px;
+  width: 68px;
 }
 
 h1 {
