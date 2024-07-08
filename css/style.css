@@ -11,11 +11,21 @@ body {
   color: #fafaf9;
   background-color: #292524;
   font-family: "sono", sans-serif;
+  padding: 40px;
 }
 
 .header {
   margin-bottom: 40px;
-  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
 }
 
 .fact-form {
@@ -30,6 +40,7 @@ h1 {
   font-family: "coiny", sans-serif;
   font-size: 42px;
   text-transform: uppercase;
+  margin-top: 6px;
 }
 
 .fact {
