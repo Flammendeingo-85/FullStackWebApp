@@ -167,7 +167,6 @@ ul {
 
 .fact-form input,
 .fact-form select {
-  max-width: 220px;
   background-color: #78716c;
   border: none;
   border-radius: 100px;
@@ -176,12 +175,12 @@ ul {
   font-family: inherit;
 }
 
-.fact-form input::placeholder {
-  color: #a8a29e;
-}
-
 .fact-form input:first-child {
   flex-grow: 1;
+}
+
+.fact-form input::placeholder {
+  color: #a8a29e;
 }
 
 .fact-form span {
