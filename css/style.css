@@ -20,7 +20,7 @@ body {
 .container {
   max-width: 1500px;
   margin: 0 auto;
-}
+} 
 
 .header {
   margin-bottom: 40px;
@@ -75,6 +75,16 @@ h1 {
   align-items: center;
   gap: 24px;
   letter-spacing: -1px;
+  border-radius: 10px;
+  
+}
+
+@media (max-width: 1200px) {
+  .fact {
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-end;
+  }
 }
 
 .tag {
