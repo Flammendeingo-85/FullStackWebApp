@@ -14,8 +14,3 @@ btn.addEventListener("click", function () {
     // else add the 'hidden'-class to the .fact-form class, so it becomes hidden again.
   }
 });
-
-
-// Fundamentals of Javascript
-
-//
